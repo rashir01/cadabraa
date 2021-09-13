@@ -31,8 +31,6 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: false
   },
-  // Define an alias for when data is retrieved
-  as: 'location_travellers'
 });
 
 module.exports = {
